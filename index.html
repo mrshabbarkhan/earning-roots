@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Earning Roots</title>
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <nav
+      class="flex justify-between items-center px-16 bg-white border-b shadow-md"
+    >
+      <img class="w-20 scale-150" src="logooo.png" alt="" />
+      <ul class="sm:flex gap-8 text-xl hidden">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Join us</li>
+        <li>Help</li>
+      </ul>
+    </nav>
+    <!-- Main Section: Split Layout -->
+    <section
+      class="min-h-[100vh] flex items-center justify-center px-5 lg:px-16 bg-white"
+    >
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full max-w-7xl"
+      >
+        <!-- Text Section -->
+        <div class="text-center lg:text-left">
+          <h1
+            class="text-4xl sm:text-6xl font-extrabold leading-tight text-[#49C2C4]"
+          >
+            Maximize Wealth, Secure Your Future
+          </h1>
+          <p class="mt-5 text-lg sm:text-2xl text-gray-600">
+            Empowering you with data-driven insights, expert financial guidance,
+            and personalized portfolio management. Start your journey with
+            Earning Root today!
+          </p>
+
+          <a
+            href="#contact"
+            class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-200"
+            >Get Started</a
+          >
+        </div>
+
+        <!-- Image Section -->
+        <div class="hidden lg:block">
+          <img
+            src="/4027794.jpg"
+            alt="Stock Market"
+            class="object-cover rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-gray-100 text-center">
+      <div class="max-w-xl mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-900">Get in Touch</h2>
+        <p class="mt-4 text-gray-600">
+          Have any questions? Feel free to contact us, and we'll get back to you
+          as soon as possible.
+        </p>
+        <form class="mt-8">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
+          />
+          <textarea
+            placeholder="Your Message"
+            class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
+            rows="5"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-200"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section (Optional) -->
+    <!-- <footer class="py-4 bg-gray-900 text-gray-400 text-center">
+      <p>Email us : gmail@.com</p>
+    </footer> -->
+  </body>
+</html>
