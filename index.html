@@ -35,27 +35,63 @@
           as soon as possible.
         </p>
         <form class="mt-8">
+          <select name="" id="" class="w-full py-3 rounded-md mb-4">
+            <option value="">Select language</option>
+            <option value="">English</option>
+            <option value="">Hindi</option>
+          </select>
+
           <input
             type="text"
-            placeholder="Your Name"
+            placeholder="Full Name"
             class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
           />
+
+          <div class="flex justify-center">
+            <span
+              class="border bg-pink-100 border-r-none rounded-md border-r-none py-3 px-2 h-fit"
+              >+91</span
+            >
+            <input
+              type="number"
+              placeholder="10 digit Mobile Number"
+              class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
+            />
+          </div>
+
           <input
             type="email"
-            placeholder="Your Email"
+            placeholder="Email"
             class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
           />
-          <textarea
-            placeholder="Your Message"
-            class="w-full py-3 px-4 mb-4 rounded-lg border border-gray-300 focus:outline-none"
-            rows="5"
-          ></textarea>
+
+          <h1 class="text-left font-semibold">Demate Account Status</h1>
+          <div class="text-left mb-7 mt-1 space-x-5 sm:space-x-10">
+            <span>
+              <input type="radio" id="already" name="accountStatus" />
+              <label for="already">Already have </label>
+            </span>
+            <span>
+              <input type="radio" id="notYet" name="accountStatus" />
+              <label for="notYet">Yet to get</label>
+            </span>
+          </div>
+
           <button
             type="submit"
-            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-200"
+            class="w-full mb-3 bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full shadow-md transition duration-200"
           >
-            Send Message
+            Submit
           </button>
+
+          <div class="text-left">
+            <input type="checkbox" id="check" />
+            <label for="check"
+              >*By clicking on Submit, you agree to Earning Roots's
+              <span class="font-semibold">Terms & Conditions</span> and
+              <span class="font-semibold"> Privery Policy </span></label
+            >
+          </div>
         </form>
       </div>
     </section>
